@@ -1,0 +1,11 @@
+[package]
+name = "my_user_name"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+whoami = "1.2.1"
+chrono = "0.4.21"
+copypasta = "0.8.1"
