@@ -9,3 +9,6 @@ edition = "2021"
 whoami = "1.2.1"
 chrono = "0.4.21"
 copypasta = "0.8.1"
+
+[build-dependencies]
+winres = "0.1.12"
