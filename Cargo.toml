@@ -1,14 +1,17 @@
 [package]
 name = "my_user_name"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
+authors = ["Maciej Karpiński"]
+description = "Set Windows clipboard with current time date and first part of AzureAD account name."
+repository = "https://github.com/MacKarp/MyUserName"
+license = "GPL-3.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-whoami = "1.2.1"
-chrono = "0.4.21"
-copypasta = "0.8.1"
+chrono = "0.4.31"
+copypasta = "0.10.0"
 
 [profile.release]
 strip = true
